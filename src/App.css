@@ -15,12 +15,22 @@
 
 .title{
   color: #FFF;
-  font-size: 5rem;
+  font-size: 7rem;
   margin: auto;
-  align-content: flex-start;
+  padding: 20px;
+
 }
 
 .parr{
   color: #fff;
   font-size: 2rem;
+}
+
+.buttonportfolio{
+  margin-top: 7rem;
+  height: 50px;
+  width: 300px;
+  color: #fff;
+  background-color: #30eefb;
+  border-radius: 20px;
 }

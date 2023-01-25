@@ -7,11 +7,15 @@ function App() {
         <h1 className='title'>Agustin</h1>
         <h1 className='title'>Robledo</h1>
         <p className='parr'>Web designer & Developer</p>
+        <button className='buttonportfolio'>Mi portfolio</button>
       </div>
       <div className='section2'>
-        <h1 className='title'>Sobre Mi</h1>
+        <h1 className='title'>Proyectos</h1>
       </div>
       <div className='section'>
+        <h1 className='title'>Sobre Mi</h1>
+      </div>
+      <div className='section2'>
         <h1 className='title'>Mis Habilidades</h1>
       </div>
       <div className='section2'>
