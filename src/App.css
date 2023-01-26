@@ -53,6 +53,8 @@
 
 /* FIN GENERAL */
 
+/* Desktop */
+
 /* SECCION 1 */
 
 .title{
@@ -193,9 +195,102 @@
 }
 
 
+/* FIN SECCION 4 */
+
+/* Fin Desktop */
+
+/* Desktop LR */
+
+@media only screen and (min-width: 1600px) {
+
+
+/* SECCION 2 */
+
+.proyectsInfo img{
+  height: 230px;
+}
+
+.proyecto p{
+  color: #fff;
+  font-family: 'Reservation';
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+/* FIN SECCION 2 */
+
+
+
+/* SECCION 3 */
+
+.textSobremi{
+  width: 1000px;
+  left: 20%;
+  top: 40%;
+  font-size: 2rem;
+}
+
+/* FIN SECCION 3 */
+
+
+/* SECCION 4 */
+
+.imgSkills{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  flex-wrap: wrap;
+  position: relative;
+  top: 20%;
+}
+
+.imgSkills img{
+  height: 150px;
+}
+
+.imgSkills img:hover{
+  opacity: 0.5;
+}
+
+.skills{
+  display: flex;
+  justify-content: space-evenly;
+}
 
 
 /* FIN SECCION 4 */
+
+/* SECCION 5 */
+
+.contactoInfo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Reservation';
+}
+
+
+.contactoInfo a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.contactoInfo a:hover{
+  opacity: .5;
+}
+
+
+
+
+/* FIN SECCION 4 */
+ 
+}
+
+/* Fin Desktop LR */
 
 
 
