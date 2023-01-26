@@ -207,7 +207,7 @@
 
 /* Desktop LR */
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (max-width: 1600px) {
 
 
 /* SECCION 2 */
@@ -304,7 +304,7 @@
 
 /* Tablet */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 
   /* SECCION 1 */
 
@@ -438,7 +438,7 @@
 
 /* Mobile */
 
-@media only screen and (min-width: 425px) {
+@media only screen and (max-width: 425px) {
 
   /* SECCION 1 */
 
@@ -545,8 +545,9 @@
 }
 
 .imgSkills img{
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
+  margin-top: 1.5rem;
 }
 
 
@@ -557,10 +558,10 @@
 
 .contactoInfo{
   position: absolute;
-  top: 50%;
-  left: 35%;
+  top: 40%;
+  left: 5%;
   color: #fff;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-family: 'Reservation';
 }
 

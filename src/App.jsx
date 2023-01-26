@@ -1,20 +1,48 @@
 import './App.css';
+import {motion} from 'framer-motion'
+
 
 function App() {
   return (
     <div className="App">
       <div className='section'>
         <div className='nombreInfo'>
-          <h1>Agustin</h1>
-          <h1>Robledo</h1>
-          <p className='parr'>Web designer & Developer</p>
+          <motion.h1
+            initial={{x: -200, opacity:0}}
+            animate={{x: 0, opacity:1}}
+            transition={{duration:2}}
+          >
+            Agustin</motion.h1>
+          <motion.h1
+          initial={{x: -200, opacity:0}}
+          animate={{x: 0, opacity:1}}
+          transition={{duration:3}}
+          >Robledo</motion.h1>
+          <motion.p className='parr'
+          initial={{opacity:0}}
+          animate={{ opacity:1}}
+          transition={{duration:2}}
+          >Web designer & Developer</motion.p>
         </div>
-        <button className='buttonportfolio'>Mi portfolio</button>
+        <motion.button className='buttonportfolio'
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 0.9 }}
+        >Mi portfolio</motion.button>
         <img src="https://i.postimg.cc/JtVXyXWQ/Whats-App-Image-2023-01-24-at-22-50-05.png" className='imgMe' alt="imgMe" />
       </div>
       <div className='section2'>
-        <h1 className='title nombreInfo'>Proyectos</h1>
-        <div className='proyectsInfo'>
+        <motion.h1 className='title nombreInfo'
+        initial={{x: -200, opacity:0}}
+        whileInView={{x: 0, opacity:1}}
+        viewport={{once:true,amount:0.5}}
+        transition={{duration:2}}
+        >Proyectos</motion.h1>
+        <motion.div className='proyectsInfo'
+        initial={{opacity:0}}
+        whileInView={{opacity:1}}
+        viewport={{once:true,amount:0.7}}
+        transition={{duration:2}}
+        >
           <div className='proyecto'>
             <a href="https://culturejs.netlify.app/index.html" target='blank'><img src="https://i.postimg.cc/P52MTcn4/Screenshot-2.png" alt="l1" /></a>
             <p>MUD Page & Store</p>
@@ -27,14 +55,29 @@ function App() {
             <a href="https://culturejs.netlify.app/index.html" target='blank'><img src="https://i.postimg.cc/8C4cqBhq/Screenshot-1.png" alt="l1" /></a>
             <p>Culture Store</p>
           </div>
-        </div>
+        </motion.div>
       </div>
       <div className='section'>
-        <h1 className='title nombreInfo'>Sobre Mi</h1>
-        <p className='textSobremi'>Mi nombre es Agustin Robledo. Soy Diseñador y Desarrollador Web . Trabaje en varios desarrollos personales asi como tambien desarrollando paginas con E-Commerce para empresas. Soy una persona que siempre aspira a progresar y a aprender.</p>
+        <motion.h1 className='title nombreInfo'
+        initial={{x: -200, opacity:0}}
+        whileInView={{x: 0, opacity:1}}
+        viewport={{once:true,amount:0.5}}
+        transition={{duration:2}}
+        >Sobre Mi</motion.h1>
+        <motion.p className='textSobremi'
+        initial={{opacity:0}}
+        whileInView={{ opacity:1}}
+        viewport={{once:true,amount:0.5}}
+        transition={{duration:2}}
+        >Mi nombre es Agustin Robledo. Soy Diseñador y Desarrollador Web . Trabaje en varios desarrollos personales asi como tambien desarrollando paginas con E-Commerce para empresas. Soy una persona que siempre aspira a progresar y a aprender.</motion.p>
       </div>
       <div className='section2'>
-        <h1 className='title nombreInfo'>Mis Habilidades</h1>
+        <motion.h1 className='title nombreInfo'
+        initial={{x: -200, opacity:0}}
+        whileInView={{x: 0, opacity:1}}
+        viewport={{once:true,amount:0.5}}
+        transition={{duration:2}}
+        >Mis Habilidades</motion.h1>
         <div className='imgSkills'>
           <div className='skills'>
             <img src="https://i.postimg.cc/0Nfv4K5H/htmlcss-1.png" alt="img1" />
@@ -53,12 +96,22 @@ function App() {
         </div>
       </div>
       <div className='section'>
-        <h1 className='title nombreInfo'>Contacto</h1>
-        <div className='contactoInfo'>
+        <motion.h1 className='title nombreInfo'
+        initial={{x: -200, opacity:0}}
+        whileInView={{x: 0, opacity:1}}
+        viewport={{once:true,amount:0.5}}
+        transition={{duration:2}}
+        >Contacto</motion.h1>
+        <motion.div className='contactoInfo'
+        initial={{opacity:0}}
+        whileInView={{ opacity:1}}
+        viewport={{once:true,amount:0.5}}
+        transition={{duration:2}}
+        >
           <p>Correo: robledoagustin7@gmail.com</p>
           <p>Celular: 1167891196</p>
           <p className='hyperV'><a href="https://github.com/Ler0v" target='blank'>Github</a></p>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
