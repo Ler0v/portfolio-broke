@@ -103,7 +103,28 @@
 /* FIN SECCION 1 */
 
 
+/* SECCION 2 */
 
+.proyectsInfo{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 30%;
+}
+
+.proyectsInfo img{
+  height: 300px;
+}
+
+.proyecto p{
+  color: #fff;
+  font-family: 'Reservation';
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+/* FIN SECCION 2 */
 
 
 
@@ -161,10 +182,16 @@
   font-family: 'Reservation';
 }
 
+
 .contactoInfo a{
   color: #fff;
   text-decoration: none;
 }
+
+.contactoInfo a:hover{
+  opacity: .5;
+}
+
 
 
 

@@ -14,6 +14,20 @@ function App() {
       </div>
       <div className='section2'>
         <h1 className='title nombreInfo'>Proyectos</h1>
+        <div className='proyectsInfo'>
+          <div className='proyecto'>
+            <a href="https://culturejs.netlify.app/index.html" target='blank'><img src="https://i.postimg.cc/8C4cqBhq/Screenshot-1.png" alt="l1" /></a>
+            <p>Culture Store</p>
+          </div>
+          <div className='proyecto'>
+            <a href="https://culturejs.netlify.app/index.html" target='blank'><img src="https://i.postimg.cc/8C4cqBhq/Screenshot-1.png" alt="l1" /></a>
+            <p>Culture Store</p>
+          </div>
+          <div className='proyecto'>
+            <a href="https://culturejs.netlify.app/index.html" target='blank'><img src="https://i.postimg.cc/8C4cqBhq/Screenshot-1.png" alt="l1" /></a>
+            <p>Culture Store</p>
+          </div>
+        </div>
       </div>
       <div className='section'>
         <h1 className='title nombreInfo'>Sobre Mi</h1>
