@@ -195,9 +195,15 @@
 }
 
 
-/* FIN SECCION 4 */
+/* FIN SECCION 5 */
 
 /* Fin Desktop */
+
+
+
+
+
+
 
 /* Desktop LR */
 
@@ -283,14 +289,292 @@
   opacity: .5;
 }
 
+}
+
+/* FIN SECCION 4 */
+ 
+
+/* Fin Desktop LR */
+
+
+
+
+
+
+
+/* Tablet */
+
+@media only screen and (min-width: 768px) {
+
+  /* SECCION 1 */
+
+.title{
+  font-size: 4rem;
+  margin: auto;
+}
+
+.parr{
+  font-size: 1.5rem;
+}
+
+.nombreInfo{
+  position: relative;
+  left:  10%;
+  top: 5%;
+}
+
+.nombreInfo h1{
+  color: #FFF;
+  font-size: 5rem;
+  margin: auto;
+  font-family: 'Reservation';
+}
+
+.buttonportfolio{
+  font-size: 1.3rem;
+}
+
+.imgMe{
+  overflow-x: hidden;
+  top: -10%;
+  left: 50%;
+  position: absolute;
+}
+
+/* FIN SECCION 1 */
+
+
+/* SECCION 2 */
+
+.proyectsInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 15%;
+}
+
+.proyecto{
+  display: flex;
+  justify-content: flex-start;
+  width: 600px;
+  margin-left: 8rem;
+  margin-top: 2rem;
+}
+
+.proyectsInfo img{
+  height: 100px;
+}
+
+.proyecto p{
+  font-size: 1.5rem;
+  margin-left: 3rem;
+}
+
+/* FIN SECCION 2 */
+
+
+/* SECCION 3 */
+
+.textSobremi{
+  color: #fff;
+  position: absolute;
+  width: 600px;
+  left: 13%;
+  top: 30%;
+  font-size: 2rem;
+}
+
+/* FIN SECCION 3 */
+
+
+/* SECCION 4 */
+
+.imgSkills{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  flex-wrap: wrap;
+  position: relative;
+  top: 25%;
+}
+
+.imgSkills img{
+  height: 120px;
+}
 
 
 
 /* FIN SECCION 4 */
- 
+
+/* SECCION 5 */
+
+.contactoInfo{
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  color: #fff;
+  font-size: 1.7rem;
+  font-family: 'Reservation';
 }
 
-/* Fin Desktop LR */
+.contactoInfo a{
+  color: #fff;
+  text-decoration: none;
+}
+
+}
+
+/* FIN SECCION 5 */
+  
+/* Fin Tablet*/
+
+
+
+
+
+
+
+/* Mobile */
+
+@media only screen and (min-width: 425px) {
+
+  /* SECCION 1 */
+
+.title{
+  font-size: 3rem;
+  margin: auto;
+}
+
+.parr{
+  font-size: 1.5rem;
+}
+
+.nombreInfo{
+  position: relative;
+  left:  10%;
+  top: 5%;
+}
+
+.nombreInfo h1{
+  font-size: 3.5rem;
+  margin: auto;
+}
+
+.buttonportfolio{
+  margin-top: 4rem;
+  font-size: 1.2rem;
+  height: 40px;
+  width: 200px;
+}
+
+.imgMe{
+  overflow-x: hidden;
+  height: 500px;
+  top: 30%;
+  left: 15%;
+  position: absolute;
+}
+
+/* FIN SECCION 1 */
+
+
+/* SECCION 2 */
+
+.proyectsInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 15%;
+}
+
+.proyecto{
+  display: flex;
+  justify-content: flex-start;
+  width: 400px;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.proyectsInfo img{
+  height: 100px;
+}
+
+.proyecto p{
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+/* FIN SECCION 2 */
+
+
+/* SECCION 3 */
+
+.textSobremi{
+  color: #fff;
+  position: absolute;
+  width: 400px;
+  left: 5%;
+  top: 25%;
+  font-size: 1.9rem;
+}
+
+/* FIN SECCION 3 */
+
+
+/* SECCION 4 */
+
+.imgSkills{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  flex-wrap: wrap;
+  position: relative;
+  top: 15%;
+}
+
+.skills{
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.imgSkills img{
+  height: 70px;
+  width: 70px;
+}
+
+
+
+/* FIN SECCION 4 */
+
+/* SECCION 5 */
+
+.contactoInfo{
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  color: #fff;
+  font-size: 1.7rem;
+  font-family: 'Reservation';
+}
+
+.contactoInfo a{
+  color: #fff;
+  text-decoration: none;
+}
+
+}
+
+/* FIN SECCION 5 */
+  
+  /* Fin Mobile*/
+
 
 
 
