@@ -1,24 +1,65 @@
+@font-face {
+  font-family: 'Reservation';
+  src: url(./fonts/reservationwidebold.TTF);
+}
+
+/* NAVBAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: #000;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 250, 250); 
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(26, 24, 24, 10); 
+}
+
+/* FIN NAVBAR */
+
+
 .App {
   margin: auto;
+  scroll-behavior: smooth;
 }
+
+/* GENERAL */
 
 .section{
   background-color: #000;
   height: 100vh;
   padding: 20px;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .section2{
   height: 100vh;
-  background-color: lightblue;
+  background-color: #00ccff;
+  overflow-x: hidden;
 }
+
+/* FIN GENERAL */
+
+/* SECCION 1 */
 
 .title{
   color: #FFF;
   font-size: 7rem;
   margin: auto;
-  padding: 20px;
-
+  font-family: 'Reservation';
 }
 
 .parr{
@@ -26,11 +67,108 @@
   font-size: 2rem;
 }
 
+.nombreInfo{
+  position: relative;
+  left:  10%;
+  top: 10%;
+}
+
+.nombreInfo h1{
+  color: #FFF;
+  font-size: 7rem;
+  margin: auto;
+  font-family: 'Reservation';
+}
+
 .buttonportfolio{
   margin-top: 7rem;
   height: 50px;
   width: 300px;
   color: #fff;
-  background-color: #30eefb;
+  background-color: #00ccff;
   border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  left:  10%;
+  font-size: 1.5rem;
 }
+
+.imgMe{
+  overflow-x: hidden;
+  top: 0%;
+  left: 60%;
+  position: absolute;
+}
+
+/* FIN SECCION 1 */
+
+
+
+
+
+
+/* SECCION 3 */
+
+.textSobremi{
+  color: #fff;
+  position: absolute;
+  width: 1100px;
+  left: 20%;
+  top: 35%;
+  font-size: 2.5rem;
+  font-family: 'Reservation';
+}
+
+/* FIN SECCION 3 */
+
+
+/* SECCION 4 */
+
+.imgSkills{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  flex-wrap: wrap;
+  position: relative;
+  top: 25%;
+}
+
+.imgSkills img{
+  height: 200px;
+}
+
+.imgSkills img:hover{
+  opacity: 0.5;
+}
+
+.skills{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+/* FIN SECCION 4 */
+
+/* SECCION 5 */
+
+.contactoInfo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Reservation';
+}
+
+.contactoInfo a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+/* FIN SECCION 4 */
+
+
+
