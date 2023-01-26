@@ -16,8 +16,8 @@ function App() {
         <h1 className='title nombreInfo'>Proyectos</h1>
         <div className='proyectsInfo'>
           <div className='proyecto'>
-            <a href="https://culturejs.netlify.app/index.html" target='blank'><img src="https://i.postimg.cc/8C4cqBhq/Screenshot-1.png" alt="l1" /></a>
-            <p>Culture Store</p>
+            <a href="https://culturejs.netlify.app/index.html" target='blank'><img src="https://i.postimg.cc/P52MTcn4/Screenshot-2.png" alt="l1" /></a>
+            <p>MUD Page & Store</p>
           </div>
           <div className='proyecto'>
             <a href="https://culturejs.netlify.app/index.html" target='blank'><img src="https://i.postimg.cc/8C4cqBhq/Screenshot-1.png" alt="l1" /></a>
