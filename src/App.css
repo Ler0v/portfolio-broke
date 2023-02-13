@@ -1,3 +1,8 @@
+.App {
+  margin: auto;
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: 'Reservation';
   src: url(./fonts/reservationwidebold.TTF);
@@ -28,12 +33,6 @@
 }
 
 /* FIN NAVBAR */
-
-
-.App {
-  margin: auto;
-  scroll-behavior: smooth;
-}
 
 /* GENERAL */
 

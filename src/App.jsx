@@ -1,5 +1,6 @@
 import './App.css';
 import {motion} from 'framer-motion'
+import { Link } from 'react-scroll';
 
 
 function App() {
@@ -24,11 +25,13 @@ function App() {
           transition={{duration:2}}
           >Web designer & Developer</motion.p>
         </div>
-        <motion.button className='buttonportfolio'
-        whileHover={{ scale: 1.2 }}
-        whileTap={{ scale: 0.9 }}
-        >Mi portfolio</motion.button>
-        <img src="https://i.postimg.cc/JtVXyXWQ/Whats-App-Image-2023-01-24-at-22-50-05.png" className='imgMe' alt="imgMe" />
+        <Link to="proyectos" spy={true} smooth={true} offset={-100} duration={500} >
+          <motion.button className='buttonportfolio'
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          >Mis Proyectos</motion.button>
+        </Link>
+        <img src="" className='imgMe' alt="imgMe" />
       </div>
       <div className='section2'>
         <motion.h1 className='title nombreInfo'
@@ -43,7 +46,7 @@ function App() {
         viewport={{once:true,amount:0.7}}
         transition={{duration:2}}
         >
-          <div className='proyecto'>
+          <div className='proyecto' id='proyectos'>
             <a href="" target='blank'><img src="https://i.postimg.cc/P52MTcn4/Screenshot-2.png" alt="l1" /></a>
             <p>MUD Page & Store</p>
           </div>
