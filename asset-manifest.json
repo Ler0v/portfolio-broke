@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8d1104a6.css",
+    "main.js": "/portfolio/static/js/main.40ba45d9.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/reservationwidebold.TTF": "/portfolio/static/media/reservationwidebold.9332fd19f7a6b018c5bc.TTF",
+    "index.html": "/portfolio/index.html",
+    "main.8d1104a6.css.map": "/portfolio/static/css/main.8d1104a6.css.map",
+    "main.40ba45d9.js.map": "/portfolio/static/js/main.40ba45d9.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d1104a6.css",
+    "static/js/main.40ba45d9.js"
+  ]
+}
